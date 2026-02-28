@@ -1,0 +1,467 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 63;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		02FB3B8226C6219CFF3DEA11 /* FaceAnalysisService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9765E564F9CAE6E79ACD994F /* FaceAnalysisService.swift */; };
+		03C32C2353450ED4E3DA0486 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D7ED2E0C6C3022547480C3B /* HomeView.swift */; };
+		08CBADDCB1931DC2C848C615 /* HairstyleCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = D198EE57A62E7EA8CCAF7035 /* HairstyleCard.swift */; };
+		150DD23D80D8BD40DAFD89D2 /* Hairstyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF4ED03048C301BFDC38A73B /* Hairstyle.swift */; };
+		3DB768B2A9A345ACF75BCD7C /* HairstyleRecommendationEngine.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56F360D7B94745B8B8EC0BCD /* HairstyleRecommendationEngine.swift */; };
+		48DF8FDBDDAA2B77D5E8E1CB /* HairstylePlaceholder.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA2FF365DDDAC4CD57BBDDD0 /* HairstylePlaceholder.swift */; };
+		4AF792C719D741ABE53D0C65 /* FaceMetrics.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BCE9DD05D5359496EF1517A /* FaceMetrics.swift */; };
+		4B31136840075466DC3AACD5 /* AnalysisResultView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A40C6FEDAA6BFD6878372C12 /* AnalysisResultView.swift */; };
+		52841B0DDD356971CD7957B3 /* FaceShape.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC02C7D37B6AE7DCCB86881A /* FaceShape.swift */; };
+		5760C2ACF20F19134717FE63 /* FaceShapeClassifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3F71E995B31D7D5B48BA679 /* FaceShapeClassifier.swift */; };
+		6F9A40CF314A1F9BF990CD73 /* HairstyleDatabase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EAE343B097439CE31A375E9 /* HairstyleDatabase.swift */; };
+		74B4F12B7F67C61953F3B7F9 /* FaceScanData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32343431D71224E57ED06B8B /* FaceScanData.swift */; };
+		9096D56242540DF3D1C0BA2F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9619CB989A29280347A7C717 /* ContentView.swift */; };
+		9346879E2CCA1B4A7F1A6971 /* FaceTrackingService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C50B005F4608ECBA32D1DB6 /* FaceTrackingService.swift */; };
+		95DD689C846871346D57C0BA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 551ADFCACCEE6AA7947C4B35 /* Assets.xcassets */; };
+		AA9274939F4B75CD29871F50 /* DebugMeshView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05B595F48FF131B9D7C10E66 /* DebugMeshView.swift */; };
+		B69AC917AD3CEAB51CE42A97 /* FaceShapeResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D1F6FD7DAD1D09A03A38919 /* FaceShapeResult.swift */; };
+		C4D6262CEDBF62BEFE67F156 /* RecommendationListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 261B61E575D4E39085E48B8C /* RecommendationListView.swift */; };
+		CD66100093D805DB5ABE572D /* CameraView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D6193FA8E6240EBE58F1183 /* CameraView.swift */; };
+		D1ABA9B5C140CE6A3A581DA2 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = C05682E7FA3F506EABC9D163 /* Localizable.strings */; };
+		D7345ED2158359D0B6397B3E /* RecommendationDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D61D8528DC5B21C4D20B0E1 /* RecommendationDetailView.swift */; };
+		FA8C3CA609BA4A61CD5A0364 /* FaceStyleApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12D3FD7D6BC9F74D766849EF /* FaceStyleApp.swift */; };
+		FFFD57867E10820181D8E992 /* CameraPermissionManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E7A4C1798CCAB389F31D3E2 /* CameraPermissionManager.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		05B595F48FF131B9D7C10E66 /* DebugMeshView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DebugMeshView.swift; sourceTree = "<group>"; };
+		12D3FD7D6BC9F74D766849EF /* FaceStyleApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FaceStyleApp.swift; sourceTree = "<group>"; };
+		1BCE9DD05D5359496EF1517A /* FaceMetrics.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FaceMetrics.swift; sourceTree = "<group>"; };
+		1D6193FA8E6240EBE58F1183 /* CameraView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraView.swift; sourceTree = "<group>"; };
+		1E7A4C1798CCAB389F31D3E2 /* CameraPermissionManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraPermissionManager.swift; sourceTree = "<group>"; };
+		261B61E575D4E39085E48B8C /* RecommendationListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecommendationListView.swift; sourceTree = "<group>"; };
+		32343431D71224E57ED06B8B /* FaceScanData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FaceScanData.swift; sourceTree = "<group>"; };
+		3D7ED2E0C6C3022547480C3B /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		3EAE343B097439CE31A375E9 /* HairstyleDatabase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HairstyleDatabase.swift; sourceTree = "<group>"; };
+		4C6181D824FF12A1DDE34EB0 /* FaceStyle.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FaceStyle.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		51B19C9AB0ADF80386D4EFD6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		551ADFCACCEE6AA7947C4B35 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		56F360D7B94745B8B8EC0BCD /* HairstyleRecommendationEngine.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HairstyleRecommendationEngine.swift; sourceTree = "<group>"; };
+		5C50B005F4608ECBA32D1DB6 /* FaceTrackingService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FaceTrackingService.swift; sourceTree = "<group>"; };
+		8D1F6FD7DAD1D09A03A38919 /* FaceShapeResult.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FaceShapeResult.swift; sourceTree = "<group>"; };
+		8FD4DA9EBE3E11B1274061C4 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/Localizable.strings"; sourceTree = "<group>"; };
+		9619CB989A29280347A7C717 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		9765E564F9CAE6E79ACD994F /* FaceAnalysisService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FaceAnalysisService.swift; sourceTree = "<group>"; };
+		9D61D8528DC5B21C4D20B0E1 /* RecommendationDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecommendationDetailView.swift; sourceTree = "<group>"; };
+		A40C6FEDAA6BFD6878372C12 /* AnalysisResultView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnalysisResultView.swift; sourceTree = "<group>"; };
+		B3F71E995B31D7D5B48BA679 /* FaceShapeClassifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FaceShapeClassifier.swift; sourceTree = "<group>"; };
+		CF4ED03048C301BFDC38A73B /* Hairstyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Hairstyle.swift; sourceTree = "<group>"; };
+		CF9C839C1A558983CAE36D29 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		D198EE57A62E7EA8CCAF7035 /* HairstyleCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HairstyleCard.swift; sourceTree = "<group>"; };
+		DC02C7D37B6AE7DCCB86881A /* FaceShape.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FaceShape.swift; sourceTree = "<group>"; };
+		FA2FF365DDDAC4CD57BBDDD0 /* HairstylePlaceholder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HairstylePlaceholder.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		0EE897AD2EE0DA5C374DB370 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				D198EE57A62E7EA8CCAF7035 /* HairstyleCard.swift */,
+				FA2FF365DDDAC4CD57BBDDD0 /* HairstylePlaceholder.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		10DEBBBAAC6DB8E445477885 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				1BCE9DD05D5359496EF1517A /* FaceMetrics.swift */,
+				32343431D71224E57ED06B8B /* FaceScanData.swift */,
+				DC02C7D37B6AE7DCCB86881A /* FaceShape.swift */,
+				8D1F6FD7DAD1D09A03A38919 /* FaceShapeResult.swift */,
+				CF4ED03048C301BFDC38A73B /* Hairstyle.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		1B95302EE3284BDF0575E3AC /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				A40C6FEDAA6BFD6878372C12 /* AnalysisResultView.swift */,
+				1D6193FA8E6240EBE58F1183 /* CameraView.swift */,
+				05B595F48FF131B9D7C10E66 /* DebugMeshView.swift */,
+				3D7ED2E0C6C3022547480C3B /* HomeView.swift */,
+				9D61D8528DC5B21C4D20B0E1 /* RecommendationDetailView.swift */,
+				261B61E575D4E39085E48B8C /* RecommendationListView.swift */,
+				0EE897AD2EE0DA5C374DB370 /* Components */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		213F0ADF7284848118D586C6 /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				3EAE343B097439CE31A375E9 /* HairstyleDatabase.swift */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+		75E2BB7F38024975FA81AE62 /* FaceStyle */ = {
+			isa = PBXGroup;
+			children = (
+				A9618FD659BB7981CECE88AB /* App */,
+				213F0ADF7284848118D586C6 /* Data */,
+				10DEBBBAAC6DB8E445477885 /* Models */,
+				FF4B899423D4DE6D0234C379 /* Resources */,
+				D9A607F9B10287BDEB4B583A /* Services */,
+				1B95302EE3284BDF0575E3AC /* Views */,
+			);
+			path = FaceStyle;
+			sourceTree = "<group>";
+		};
+		A2833C7CA83874C05131AEBA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4C6181D824FF12A1DDE34EB0 /* FaceStyle.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A9618FD659BB7981CECE88AB /* App */ = {
+			isa = PBXGroup;
+			children = (
+				9619CB989A29280347A7C717 /* ContentView.swift */,
+				12D3FD7D6BC9F74D766849EF /* FaceStyleApp.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		A9BE711BAABB78449829F63D = {
+			isa = PBXGroup;
+			children = (
+				75E2BB7F38024975FA81AE62 /* FaceStyle */,
+				A2833C7CA83874C05131AEBA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D9A607F9B10287BDEB4B583A /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				1E7A4C1798CCAB389F31D3E2 /* CameraPermissionManager.swift */,
+				9765E564F9CAE6E79ACD994F /* FaceAnalysisService.swift */,
+				B3F71E995B31D7D5B48BA679 /* FaceShapeClassifier.swift */,
+				5C50B005F4608ECBA32D1DB6 /* FaceTrackingService.swift */,
+				56F360D7B94745B8B8EC0BCD /* HairstyleRecommendationEngine.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		FF4B899423D4DE6D0234C379 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				551ADFCACCEE6AA7947C4B35 /* Assets.xcassets */,
+				51B19C9AB0ADF80386D4EFD6 /* Info.plist */,
+				C05682E7FA3F506EABC9D163 /* Localizable.strings */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		39463B2841F246D51FD42434 /* FaceStyle */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AC1587B6D5763E096DB035F9 /* Build configuration list for PBXNativeTarget "FaceStyle" */;
+			buildPhases = (
+				32279D300E26B32C7CD4BDD6 /* Sources */,
+				9EAE3C5F05E8E46AF7A7F45C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FaceStyle;
+			packageProductDependencies = (
+			);
+			productName = FaceStyle;
+			productReference = 4C6181D824FF12A1DDE34EB0 /* FaceStyle.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AC812D31D140CEE0F0BE8537 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 1620;
+				TargetAttributes = {
+					39463B2841F246D51FD42434 = {
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 499074081BFFFA9E737F6031 /* Build configuration list for PBXProject "FaceStyle" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+				"zh-Hans",
+			);
+			mainGroup = A9BE711BAABB78449829F63D;
+			minimizedProjectReferenceProxies = 1;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				39463B2841F246D51FD42434 /* FaceStyle */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9EAE3C5F05E8E46AF7A7F45C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				95DD689C846871346D57C0BA /* Assets.xcassets in Resources */,
+				D1ABA9B5C140CE6A3A581DA2 /* Localizable.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		32279D300E26B32C7CD4BDD6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4B31136840075466DC3AACD5 /* AnalysisResultView.swift in Sources */,
+				FFFD57867E10820181D8E992 /* CameraPermissionManager.swift in Sources */,
+				CD66100093D805DB5ABE572D /* CameraView.swift in Sources */,
+				9096D56242540DF3D1C0BA2F /* ContentView.swift in Sources */,
+				AA9274939F4B75CD29871F50 /* DebugMeshView.swift in Sources */,
+				02FB3B8226C6219CFF3DEA11 /* FaceAnalysisService.swift in Sources */,
+				4AF792C719D741ABE53D0C65 /* FaceMetrics.swift in Sources */,
+				74B4F12B7F67C61953F3B7F9 /* FaceScanData.swift in Sources */,
+				52841B0DDD356971CD7957B3 /* FaceShape.swift in Sources */,
+				5760C2ACF20F19134717FE63 /* FaceShapeClassifier.swift in Sources */,
+				B69AC917AD3CEAB51CE42A97 /* FaceShapeResult.swift in Sources */,
+				FA8C3CA609BA4A61CD5A0364 /* FaceStyleApp.swift in Sources */,
+				9346879E2CCA1B4A7F1A6971 /* FaceTrackingService.swift in Sources */,
+				150DD23D80D8BD40DAFD89D2 /* Hairstyle.swift in Sources */,
+				08CBADDCB1931DC2C848C615 /* HairstyleCard.swift in Sources */,
+				6F9A40CF314A1F9BF990CD73 /* HairstyleDatabase.swift in Sources */,
+				48DF8FDBDDAA2B77D5E8E1CB /* HairstylePlaceholder.swift in Sources */,
+				3DB768B2A9A345ACF75BCD7C /* HairstyleRecommendationEngine.swift in Sources */,
+				03C32C2353450ED4E3DA0486 /* HomeView.swift in Sources */,
+				D7345ED2158359D0B6397B3E /* RecommendationDetailView.swift in Sources */,
+				C4D6262CEDBF62BEFE67F156 /* RecommendationListView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		C05682E7FA3F506EABC9D163 /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CF9C839C1A558983CAE36D29 /* en */,
+				8FD4DA9EBE3E11B1274061C4 /* zh-Hans */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		19EC1F38FE024ECECBF89782 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"DEBUG=1",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MARKETING_VERSION = 1.0.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.9;
+			};
+			name = Debug;
+		};
+		2BA9E8E2DCD6C8F82C79A0D4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = NUXPGS3D6L;
+				INFOPLIST_FILE = FaceStyle/Resources/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.kyleqi.FaceStyle;
+				SDKROOT = iphoneos;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		3B68B80D6785B24E08A621E9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MARKETING_VERSION = 1.0.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.9;
+			};
+			name = Release;
+		};
+		F1761CB2CE15FB17C84A0AD6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = NUXPGS3D6L;
+				INFOPLIST_FILE = FaceStyle/Resources/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.kyleqi.FaceStyle;
+				SDKROOT = iphoneos;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		499074081BFFFA9E737F6031 /* Build configuration list for PBXProject "FaceStyle" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				19EC1F38FE024ECECBF89782 /* Debug */,
+				3B68B80D6785B24E08A621E9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AC1587B6D5763E096DB035F9 /* Build configuration list for PBXNativeTarget "FaceStyle" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F1761CB2CE15FB17C84A0AD6 /* Debug */,
+				2BA9E8E2DCD6C8F82C79A0D4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AC812D31D140CEE0F0BE8537 /* Project object */;
+}

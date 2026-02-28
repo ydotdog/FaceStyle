@@ -1,0 +1,135 @@
+/* Home View */
+"home.title" = "FaceStyle";
+"home.subtitle" = "AI-powered face shape analysis & hairstyle recommendations";
+"home.selectGender" = "I'm looking for";
+"home.startAnalysis" = "Start Analysis";
+"home.notSupported" = "TrueDepth camera required (iPhone X or later)";
+"home.howItWorks" = "How It Works";
+"home.step1.title" = "Scan Your Face";
+"home.step1.desc" = "Use TrueDepth camera for precise 3D face measurement";
+"home.step2.title" = "AI Analysis";
+"home.step2.desc" = "Analyze face shape, proportions, and key features";
+"home.step3.title" = "Get Recommendations";
+"home.step3.desc" = "Receive top 5 hairstyles tailored for your face";
+"home.disclaimer" = "Results are for reference only. We recommend consulting with a professional hairstylist for personalized advice.";
+
+/* Face Shapes */
+"faceShape.oval" = "Oval";
+"faceShape.round" = "Round";
+"faceShape.square" = "Square";
+"faceShape.heart" = "Heart";
+"faceShape.oblong" = "Oblong";
+"faceShape.diamond" = "Diamond";
+"faceShape.pear" = "Pear";
+
+"faceShape.oval.summary" = "Balanced proportions with a slightly narrower forehead and jaw";
+"faceShape.round.summary" = "Similar width and length with soft, rounded jawline";
+"faceShape.square.summary" = "Strong jawline with similar width at forehead, cheekbones, and jaw";
+"faceShape.heart.summary" = "Wider forehead tapering to a narrower, pointed chin";
+"faceShape.oblong.summary" = "Noticeably longer than wide with similar widths throughout";
+"faceShape.diamond.summary" = "Narrow forehead and jaw with wider cheekbones";
+"faceShape.pear.summary" = "Wider jaw area tapering to a narrower forehead";
+
+/* Hair Length */
+"hairLength.buzz" = "Buzz";
+"hairLength.short" = "Short";
+"hairLength.medium" = "Medium";
+"hairLength.long" = "Long";
+
+/* Hair Style */
+"hairStyle.straight" = "Straight";
+"hairStyle.curly" = "Curly";
+"hairStyle.wavy" = "Wavy";
+"hairStyle.braided" = "Braided";
+"hairStyle.updo" = "Updo";
+"hairStyle.layered" = "Layered";
+"hairStyle.bangs" = "Bangs";
+"hairStyle.textured" = "Textured";
+
+/* Gender */
+"gender.male" = "Male";
+"gender.female" = "Female";
+"gender.unisex" = "Unisex";
+
+/* Tracking */
+"tracking.notStarted" = "Ready to scan";
+"tracking.initializing" = "Initializing camera...";
+"tracking.tracking" = "Face detected";
+"tracking.faceNotFound" = "No face detected";
+"tracking.notSupported" = "TrueDepth camera not available";
+"tracking.denied" = "Camera access denied";
+
+/* Camera Guidance */
+"guidance.lookStraight" = "Please look straight at the camera";
+"guidance.tooClose" = "Move further from the camera";
+"guidance.tooFar" = "Move closer to the camera";
+"guidance.moreLighting" = "Need better lighting";
+"camera.pose" = "Pose";
+"camera.distance" = "Distance";
+"camera.lighting" = "Lighting";
+
+/* Face Metrics Characteristics */
+"metrics.characteristic.highForehead" = "Higher forehead";
+"metrics.characteristic.lowForehead" = "Lower forehead";
+"metrics.characteristic.longLowerFace" = "Longer lower face";
+"metrics.characteristic.shortLowerFace" = "Shorter lower face";
+"metrics.characteristic.widerForehead" = "Forehead wider than jaw";
+"metrics.characteristic.widerJaw" = "Jaw wider than forehead";
+"metrics.characteristic.roundedJaw" = "Rounded jawline";
+"metrics.characteristic.angularJaw" = "Angular jawline";
+"metrics.characteristic.pointedChin" = "Pointed chin";
+"metrics.characteristic.roundedChin" = "Rounded chin";
+"metrics.characteristic.longerFace" = "Longer face shape";
+"metrics.characteristic.rounderFace" = "Rounder face shape";
+
+/* Analysis Result */
+"analysis.title" = "Face Analysis";
+"analysis.confidence" = "Confidence: %@";
+"analysis.features" = "Features";
+"analysis.threeThirds" = "Face Thirds";
+"analysis.upperThird" = "Upper";
+"analysis.middleThird" = "Middle";
+"analysis.lowerThird" = "Lower";
+"analysis.widthComparison" = "Width Comparison";
+"analysis.forehead" = "Forehead";
+"analysis.cheekbone" = "Cheekbone";
+"analysis.jaw" = "Jaw";
+"analysis.lengthWidthRatio" = "Face Length-Width Ratio";
+"analysis.yourRatio" = "Your Ratio";
+"analysis.idealRatio" = "Ideal";
+"analysis.viewRecommendations" = "View Hairstyle Recommendations";
+
+/* Recommendations */
+"recommendations.title" = "Recommended Hairstyles";
+"recommendations.subtitle" = "Top %lld hairstyles tailored for your face shape";
+
+/* Card */
+"card.matchScore" = "match";
+
+/* Detail */
+"detail.placeholderImage" = "Reference photo coming soon";
+"detail.matchAnalysis" = "Match Analysis";
+"detail.suitableFor" = "Suitable for:";
+"detail.whySuitable" = "Why It Suits You";
+"detail.info" = "Hairstyle Info";
+"detail.length" = "Length";
+"detail.style" = "Style";
+"detail.maintenance" = "Maintenance";
+"detail.occasions" = "Occasions";
+
+/* Recommendation Reasons */
+"recommend.reason.bangsForHighForehead" = "Bangs help balance a higher forehead";
+"recommend.reason.layeredForWideJaw" = "Layers soften a wider jawline";
+"recommend.reason.volumeForLongFace" = "Adds width to balance a longer face";
+"recommend.reason.bangsForLongFace" = "Bangs shorten the visual length of the face";
+"recommend.reason.longForRoundFace" = "Longer length creates a slimming effect";
+"recommend.reason.softForSquareJaw" = "Waves soften angular jaw features";
+"recommend.reason.coverCheekbones" = "Helps frame and soften prominent cheekbones";
+
+/* Camera Permissions */
+"camera.permissionNeeded" = "Camera access needed for face scanning";
+"camera.permissionDenied" = "Camera access was denied";
+"camera.permissionDeniedDesc" = "Please enable camera access in Settings to use face scanning.";
+"camera.openSettings" = "Open Settings";
+"camera.captureError" = "Capture Failed";
+"camera.captureErrorDesc" = "Could not capture face data. Please ensure your face is properly positioned and try again.";

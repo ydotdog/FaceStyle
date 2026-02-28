@@ -1,0 +1,135 @@
+/* Home View */
+"home.title" = "FaceStyle";
+"home.subtitle" = "AI 面部分析，为你推荐最适合的发型";
+"home.selectGender" = "我想看";
+"home.startAnalysis" = "开始分析";
+"home.notSupported" = "需要 TrueDepth 摄像头（iPhone X 及以上）";
+"home.howItWorks" = "使用流程";
+"home.step1.title" = "扫描你的脸";
+"home.step1.desc" = "使用 TrueDepth 前置摄像头进行精准 3D 面部测量";
+"home.step2.title" = "AI 分析";
+"home.step2.desc" = "分析脸型、面部比例和关键特征";
+"home.step3.title" = "获取推荐";
+"home.step3.desc" = "获得为你量身定制的 Top 5 发型推荐";
+"home.disclaimer" = "分析结果仅供参考。建议咨询专业发型师获取个性化建议。";
+
+/* Face Shapes */
+"faceShape.oval" = "椭圆脸（鹅蛋脸）";
+"faceShape.round" = "圆脸";
+"faceShape.square" = "方脸";
+"faceShape.heart" = "心形脸";
+"faceShape.oblong" = "长脸";
+"faceShape.diamond" = "菱形脸";
+"faceShape.pear" = "梨形脸";
+
+"faceShape.oval.summary" = "比例均衡，额头和下巴略窄于颧骨";
+"faceShape.round.summary" = "脸长和脸宽接近，下颌线条柔和圆润";
+"faceShape.square.summary" = "下颌线条明显，额头、颧骨和下颌宽度接近";
+"faceShape.heart.summary" = "额头较宽，逐渐收窄到较尖的下巴";
+"faceShape.oblong.summary" = "脸长明显大于脸宽，各部位宽度较均匀";
+"faceShape.diamond.summary" = "额头和下颌较窄，颧骨较宽突出";
+"faceShape.pear.summary" = "下颌区域较宽，额头较窄";
+
+/* Hair Length */
+"hairLength.buzz" = "寸头";
+"hairLength.short" = "短发";
+"hairLength.medium" = "中长发";
+"hairLength.long" = "长发";
+
+/* Hair Style */
+"hairStyle.straight" = "直发";
+"hairStyle.curly" = "卷发";
+"hairStyle.wavy" = "波浪";
+"hairStyle.braided" = "编发";
+"hairStyle.updo" = "盘发";
+"hairStyle.layered" = "层次";
+"hairStyle.bangs" = "刘海";
+"hairStyle.textured" = "纹理";
+
+/* Gender */
+"gender.male" = "男生发型";
+"gender.female" = "女生发型";
+"gender.unisex" = "通用";
+
+/* Tracking */
+"tracking.notStarted" = "准备扫描";
+"tracking.initializing" = "正在初始化摄像头...";
+"tracking.tracking" = "已检测到人脸";
+"tracking.faceNotFound" = "未检测到人脸";
+"tracking.notSupported" = "TrueDepth 摄像头不可用";
+"tracking.denied" = "相机权限被拒绝";
+
+/* Camera Guidance */
+"guidance.lookStraight" = "请正面朝向摄像头";
+"guidance.tooClose" = "请稍微远离摄像头";
+"guidance.tooFar" = "请靠近摄像头";
+"guidance.moreLighting" = "光线不足，请到更亮的地方";
+"camera.pose" = "姿势";
+"camera.distance" = "距离";
+"camera.lighting" = "光照";
+
+/* Face Metrics Characteristics */
+"metrics.characteristic.highForehead" = "额头偏高";
+"metrics.characteristic.lowForehead" = "额头偏低";
+"metrics.characteristic.longLowerFace" = "下庭偏长";
+"metrics.characteristic.shortLowerFace" = "下庭偏短";
+"metrics.characteristic.widerForehead" = "额头比下颌宽";
+"metrics.characteristic.widerJaw" = "下颌比额头宽";
+"metrics.characteristic.roundedJaw" = "下颌线圆润";
+"metrics.characteristic.angularJaw" = "下颌线分明";
+"metrics.characteristic.pointedChin" = "下巴偏尖";
+"metrics.characteristic.roundedChin" = "下巴圆润";
+"metrics.characteristic.longerFace" = "脸型偏长";
+"metrics.characteristic.rounderFace" = "脸型偏圆";
+
+/* Analysis Result */
+"analysis.title" = "面部分析报告";
+"analysis.confidence" = "置信度：%@";
+"analysis.features" = "面部特征";
+"analysis.threeThirds" = "三庭比例";
+"analysis.upperThird" = "上庭";
+"analysis.middleThird" = "中庭";
+"analysis.lowerThird" = "下庭";
+"analysis.widthComparison" = "宽度对比";
+"analysis.forehead" = "额头";
+"analysis.cheekbone" = "颧骨";
+"analysis.jaw" = "下颌";
+"analysis.lengthWidthRatio" = "脸长宽比";
+"analysis.yourRatio" = "你的比例";
+"analysis.idealRatio" = "理想值";
+"analysis.viewRecommendations" = "查看发型推荐";
+
+/* Recommendations */
+"recommendations.title" = "发型推荐";
+"recommendations.subtitle" = "为你的脸型量身定制的 Top %lld 发型";
+
+/* Card */
+"card.matchScore" = "匹配";
+
+/* Detail */
+"detail.placeholderImage" = "参考照片即将推出";
+"detail.matchAnalysis" = "匹配分析";
+"detail.suitableFor" = "适合脸型：";
+"detail.whySuitable" = "为什么适合你";
+"detail.info" = "发型信息";
+"detail.length" = "长度";
+"detail.style" = "风格";
+"detail.maintenance" = "打理难度";
+"detail.occasions" = "适合场景";
+
+/* Recommendation Reasons */
+"recommend.reason.bangsForHighForehead" = "刘海能很好地修饰较高的额头";
+"recommend.reason.layeredForWideJaw" = "层次感能柔化较宽的下颌线条";
+"recommend.reason.volumeForLongFace" = "增加横向体积感，平衡较长的脸型";
+"recommend.reason.bangsForLongFace" = "刘海能在视觉上缩短脸部长度";
+"recommend.reason.longForRoundFace" = "较长的发型能在视觉上拉长脸型";
+"recommend.reason.softForSquareJaw" = "波浪柔化方形下颌的棱角";
+"recommend.reason.coverCheekbones" = "修饰突出的颧骨，让脸部线条更柔和";
+
+/* Camera Permissions */
+"camera.permissionNeeded" = "需要相机权限来扫描面部";
+"camera.permissionDenied" = "相机权限被拒绝";
+"camera.permissionDeniedDesc" = "请在设置中开启相机权限以使用面部扫描功能。";
+"camera.openSettings" = "打开设置";
+"camera.captureError" = "拍摄失败";
+"camera.captureErrorDesc" = "无法捕获面部数据，请确保面部正对摄像头后重试。";
